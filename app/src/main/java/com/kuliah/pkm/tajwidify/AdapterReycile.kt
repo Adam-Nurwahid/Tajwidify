@@ -19,11 +19,9 @@ class AdapterReycile (private val listHero: ArrayList<MateriDataClass>) : Recycl
         }
 
         override fun onBindViewHolder(holder: ListViewHolder, position: Int) {
-            val (name, description, photo) = listHero[position]
+            val (name, photo) = listHero[position]
             holder.imgPhoto.setImageResource(photo)
             holder.tvName.text = name
-            holder.tvDescription.text = description
-
             holder.itemView.setOnClickListener {
                 val intentDetail = Intent(holder.itemView.context, MateriActivity::class.java)
                 holder.itemView.context.startActivity(intentDetail)

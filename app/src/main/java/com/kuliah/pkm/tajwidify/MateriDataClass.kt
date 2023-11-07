@@ -6,18 +6,15 @@ import org.intellij.lang.annotations.Language
 
 data class MateriDataClass(
     val name: String?,
-    val description: String?,
     val photo: Int
 ) : Parcelable {
     constructor(parcel: Parcel) : this(
-        parcel.readString(),
         parcel.readString(),
         parcel.readInt()
     )
 
     override fun writeToParcel(parcel: Parcel, flags: Int) {
         parcel.writeString(name)
-        parcel.writeString(description)
         parcel.writeInt(photo)
     }
 
