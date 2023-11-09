@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Home"
+        android:id="@+id/home"
+        android:icon="@drawable/home_ic"/>
+    <item android:title="Doa harian"
+        android:id="@+id/doa_harian"
+        android:icon="@drawable/doa_harian_ic"/>
+
+    <item android:title="Profile"
+        android:id="@+id/Profile"
+        android:icon="@drawable/person"/>
+</menu>

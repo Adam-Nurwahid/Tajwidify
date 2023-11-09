@@ -1,3 +1,25 @@
 <resources>
     <string name="app_name">Tajwidify</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string-array name="data_name">
+        <item>Nun Sukun dan Tanwin</item>
+        <item>Mim Sukun dan Tanwin</item>
+        <item>Lam</item>
+        <item>Gunnah</item>
+        <item>Qalqalah</item>
+        <item>Alif lam</item>
+    </string-array>
+    
+    
+    <integer-array name="data_photo">
+        <item>@drawable/nunsukuntanwin</item>
+        <item>@drawable/mimsukuntanwin</item>
+        <item>@drawable/lam</item>
+        <item>@drawable/gunnah</item>
+        <item>@drawable/qaf</item>
+        <item>@drawable/aliflam</item>
+    </integer-array>
 </resources>
