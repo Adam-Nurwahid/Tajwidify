@@ -12,6 +12,16 @@
         <item>Qalqalah</item>
         <item>Alif lam</item>
     </string-array>
+
+    <string-array name="doa_name">
+        <item>Doa Sebelum Tidur</item>
+        <item>Doa Bangun Tidur</item>
+        <item>Doa mengenakan Pakaian</item>
+        <item>Doa Shalat Istikharah</item>
+        <item>Doa masuk WC</item>
+        <item>Doa Keluar WC</item>
+        <item>Doa Kafaratul Majlis</item>
+    </string-array>
     
     
     <integer-array name="data_photo">
